@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-desktop">
+    <img class="pagina-inicial__logo" src="assets/Logo.png" alt="logo da alura">
+    <main class="pagina-inicial">
+        <section class="pagina-inicial__conteudo__texto">
+            <h1 class="pagina-inicial__texto" contenteditable="true" id="input">Digite seu texto aqui</h1>
+            <p class="pagina-inicial__paragrafo">
+                <img src="assets/Group.png" alt="imagem de exclamacao">Apenas letras minúsculas e sem acento.
+            </p>
+            <div class="pagina-inicial__botoes">
+                <button onclick="textoCriptografar()" class="botao botao-criptografar">Criptografar</button>
+                <button onclick="textoDescriptografar()" class="botao botao-descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section id="imagem" class="pagina-inicial__pesquisa" alt="imgem de exclamacao">
+            <img id="imagemParaOcultar" class="pagina-inicial__pesquisa__imagem" src="assets/imagemdeprocura.png" alt="imagem de alguém procurando algo com a lupa">
+            <h2 id="mensagem1" class="pagina-inicial__pesquisa__mensagem1"></h2>
+            <h3 id="mensagem2" class="pagina-inicial__pesquisa__mensagem2"></h3>
+            <button onclick="botaoCopiar()" id="copiar" class="botao-copiar">Copiar</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
