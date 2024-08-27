@@ -1,0 +1,2 @@
+Codificador Descrição O "Codificador" é uma aplicação web simples para criptografar e descriptografar textos. É feito em HTML, CSS e JavaScript, e permite converter vogais em códigos específicos para manter as mensagens seguras.
+Como Usar Digite o texto na caixa de entrada. Clique em "Criptografar" para codificar o texto. Clique em "Descriptografar" para reverter a codificação. Use o botão "Copiar" para copiar o resultado. Estrutura index.html: Interface do usuário. style.css: Estilos da página. app.js: Lógica de criptografia e descriptografia. Autor Rebeca Alves da Silva
