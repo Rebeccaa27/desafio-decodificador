@@ -1,4 +1,4 @@
-# **Codificador**
+# **Decodificador**
 
 ## **Tecnologias Utilizadas**
 - **HTML5**: Para estruturar a interface da aplicação.
