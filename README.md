@@ -8,7 +8,7 @@
 ---
 
 ## **Intuito do Codificador**
-O objetivo do "Codificador" é proporcionar uma forma prática e intuitiva de proteger mensagens ao substituí-las por um código simples e reversível. A aplicação também serve como um aprendizado prático para explorar conceitos de programação, como manipulação de strings, interatividade com o DOM e lógica de criptografia básica.
+O objetivo do "Decodificador" é proporcionar uma forma prática e intuitiva de proteger mensagens ao substituí-las por um código simples e reversível. A aplicação também serve como um aprendizado prático para explorar conceitos de programação, como manipulação de strings, interatividade com o DOM e lógica de criptografia básica.
 
 ---
 
